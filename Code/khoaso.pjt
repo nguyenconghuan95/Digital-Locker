@@ -1,0 +1,25 @@
+[PROJECT]
+Target=C:\Users\huannc\Desktop\Projects\Khoa cua so\khoaso.hex
+Development_Mode=
+Processor_Text=PIC16F873A
+ToolSuite=CCS
+Processor=0x873A
+[C:\Users\huannc\Desktop\Projects\Khoa cua so\khoaso]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=C:\Users\huannc\Desktop\Projects\Khoa cua so\khoaso.c
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[Units]
+Link=0
+Count=1
+1=C:\Users\huannc\Desktop\Projects\Khoa cua so\khoaso
+[Opened Files]
+1=..\..\Khoa cua so\khoaso.c
+2=..\Test\SERVO.c
+3=

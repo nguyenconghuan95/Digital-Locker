@@ -1,0 +1,113 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004     @WRITE_PROGRAM_MEMORY8.P2
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B     CCP_2
+01C     CCP_2_HIGH
+020     @SCRATCH
+021     @SCRATCH
+021     _RETURN_
+022     @SCRATCH
+023     @SCRATCH
+024-027 password
+028-02B check
+02C     i
+02D     k
+02E     j
+02F     value
+030-043 str
+044     @TRIS_C
+045     @sprintf_string
+046     WrStr_LCD.s
+046     SetCursor_LCD.m
+046     button.@SCRATCH1
+046     button_password.@SCRATCH1
+046     check_password.@SCRATCH1
+046     button_check.@SCRATCH1
+046     open.@SCRATCH1
+046     lock.@SCRATCH1
+046     MAIN.@SCRATCH1
+046     @PSTRINGC7_96.@SCRATCH1
+047     SetCursor_LCD.n
+047     @delay_us1.P1
+047     WrStr_LCD.@SCRATCH1
+047     @PSTRINGC7_96.@SCRATCH2
+048     WrData_LCD.data
+048     SetCursor_LCD.@SCRATCH1
+048     @PSTRINGC7_96.@SCRATCH3
+049     WrCmd_LCD.cmd
+049     @SPRINTF.P1
+04A     @delay_ms1.P1
+09C.6   C1OUT
+09C.7   C2OUT
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+003F  @delay_ms1
+0183  @delay_us1
+0052  WrCmd_LCD
+0107  WrData_LCD
+011F  WrStr_LCD
+006A  Init_LCD
+00A5  SetCursor_LCD
+012D  button
+015B  button_password
+01E1  check_password
+01B9  button_check
+01F5  open
+0199  lock
+0216  MAIN
+0004  @const94
+00B9  @SPRINTF
+00C1  @PSTRINGC7_96
+0008  @const100
+000D  @const101
+0011  @const102
+0018  @const105
+001F  @const106
+0024  @const107
+002B  @const108
+002F  @const109
+0036  @const110
+0216  @cinit
+0255  Loop
+02C5  Loop2
+02F8  Loop1
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    C:\Users\huannc\Desktop\Projects\Khoa cua so\
+
+Project Files:
+    khoaso.c
+    khoaso.h
+    ..\..\..\..\..\Program Files (x86)\PICC\devices\16F873A.h
+
+Units:
+    C:\Users\huannc\Desktop\Projects\Khoa cua so\khoaso (main)
+
+Compiler Settings:
+    Processor:      PIC16F873A
+    Pointer Size:   8
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      khoaso.err
+    Ext Symbols: khoaso.esym
+    INHX8:       khoaso.hex
+    Symbols:     khoaso.sym
+    List:        khoaso.lst
+    Debug/COFF:  khoaso.cof
+    Project:     khoaso.PJT
+    Call Tree:   khoaso.tre
+    Statistics:  khoaso.sta
